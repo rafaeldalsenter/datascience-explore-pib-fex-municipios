@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567364524304.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1703963331",
+    "id" : "576325C6",
+    "lastKnownWriteTime" : 1567364601,
+    "last_content_update" : 1567364601694,
+    "path" : "~/datascience-explore-pib-fex-municipios/scripts/importacao_e_limpeza.R",
+    "project_path" : "scripts/importacao_e_limpeza.R",
+    "properties" : {
+        "cursorPosition" : "4,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
