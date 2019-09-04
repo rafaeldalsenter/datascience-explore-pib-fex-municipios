@@ -1,9 +1,16 @@
 
 # Classes base para conexão com o banco de dados MongoDb e Find all dos dados brutos
+Sys.setlocale("LC_ALL", "pt_BR.UTF-8")
 
-install.packages("devtools")
+if("devtools" %in% installed.packages() == FALSE){
+  install.packages("devtools")
+}
+
+if("rmongodb" %in% installed.packages() == FALSE){
+  install_github("mongosoup/rmongodb", force = TRUE)
+}
+
 library("devtools")
-install_github("mongosoup/rmongodb", force = TRUE)
 library(rmongodb)
 
 collection_fex = "data-gov.FEX_2004_2016_municipio";
@@ -22,3 +29,4 @@ dados_collection_fex <- function(){
 dados_collection_pib <- function(){
   return (mongo.find.all(mongo, collection_pib));
 }
+
